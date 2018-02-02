@@ -34,10 +34,11 @@ cd ../python && pipenv install --dev
 ### Fedora 26
 
 ```bash
-sudo dnf install rabbitmq
+sudo dnf install rabbitmq-server 
 sudo service start rabbitmq-server
 git clone git@github.com:ua-snap/cc.git & cd cc
 cd node && npm install
+pip install --user pipenv
 cd ../python && pipenv install --dev
 ```
 
